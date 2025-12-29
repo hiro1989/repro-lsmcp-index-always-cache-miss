@@ -1,0 +1,10 @@
+{
+  "name": "repro-lsmcp-index-always-cache-miss",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "pnpm@10.26.2"
+}
