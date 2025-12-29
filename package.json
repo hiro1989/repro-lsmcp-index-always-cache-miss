@@ -6,5 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "packageManager": "pnpm@10.26.2"
+  "packageManager": "pnpm@10.26.2",
+  "dependencies": {
+    "@mizchi/lsmcp": "0.10.0",
+    "@typescript/native-preview": "7.0.0-dev.20251228.1"
+  }
 }
