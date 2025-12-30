@@ -1,14 +1,20 @@
 {
   "name": "repro-lsmcp-index-always-cache-miss",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "license": "MIT",
   "scripts": {
+    "lsmcp-index": "tsgo -v && lsmcp index",
+    "read-symbols-db": "tsx ./src/read-symbols-db.ts",
     "tsgo": "tsgo --noEmit"
   },
   "packageManager": "pnpm@10.26.2",
   "dependencies": {
     "@mizchi/lsmcp": "0.10.0",
-    "@typescript/native-preview": "7.0.0-dev.20251228.1"
+    "@types/node": "24.10.1",
+    "@typescript/native-preview": "7.0.0-dev.20251228.1",
+    "sqlite3": "5.1.7",
+    "tsx": "4.21.0"
   }
 }
